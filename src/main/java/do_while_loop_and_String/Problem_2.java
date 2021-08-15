@@ -4,12 +4,14 @@ import java.util.Scanner;
 
 public class Problem_2{
     public static void main(String[] args) {
-        int l=2, h, i, ct;
+
+        int l=2, inputNumber, i, ct;
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter your input: ");
-         h = scanner.nextInt();
-        System.out.print("Range of prime numbers from 2 to "+h+" are:");
-        while (l < h) {
+         inputNumber = scanner.nextInt();
+        System.out.print("Range of prime numbers from 2 to "+inputNumber+" are:");
+        while (l < inputNumber) {
+
             ct = 0;
             if (l <= 1) {
                 ++l;
