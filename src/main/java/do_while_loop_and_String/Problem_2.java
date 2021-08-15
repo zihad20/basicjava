@@ -8,10 +8,10 @@ public class Problem_2{
         int l=2, inputNumber, i, ct;
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter your input: ");
-         inputNumber = scanner.nextInt();
+        inputNumber = scanner.nextInt();
         System.out.print("Range of prime numbers from 2 to "+inputNumber+" are:");
-        while (l < inputNumber) {
 
+        while (l < inputNumber) {
             ct = 0;
             if (l <= 1) {
                 ++l;
