@@ -1,5 +1,5 @@
 package do_while_loop_and_String;
-
+//Write a program to show range of prime numbers from 2 to n using while loop [n is the number by user input]
 import java.util.Scanner;
 
 public class Problem_2{

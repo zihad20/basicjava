@@ -1,5 +1,5 @@
 package do_while_loop_and_String;
-
+//Write a program to sum of digits of a number by taking from user input
 import java.util.Scanner;
 
 public class Problem_1{
